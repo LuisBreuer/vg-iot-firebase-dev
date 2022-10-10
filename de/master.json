@@ -1,0 +1,75 @@
+{
+    "title": "Titel zu AGBs",
+    "paragraphs": [
+        {
+            "number": "1",
+            "body": "deutscher text paragraph 1\n## headline",
+            "subparagraphs": [
+                {
+                    "number": "1.1",
+                    "body": "deutscher text subparagraph 1.1",
+                    "subparagraphs": [
+                        {
+                            "number": "1.1.1",
+                            "body": "deutscher text subparagraph 1.1.1 mit Liste:\n- Regel 1\n- Irgendwas mit Gefängnis\n- Nur ein Scherz\n- Stattdessen 100 Mille Bußgeld",
+                            "title": "Deutscher Titel zu Subparagraph 1.1.1"
+                        },
+                        {
+                            "number": "1.1.2",
+                            "body": "deutscher text subparagraph 1.1.2 <a href=\"https:\/\/google.com\">mit Link <\/a>",
+                            "title": "Deutscher Titel zu Subparagraph 1.1.2"
+                        }
+                    ],
+                    "title": "Deutscher Titel zu Subparagraph 1.1"
+                },
+                {
+                    "number": "1.2",
+                    "body": "deutscher text subparagraph 1.2",
+                    "subparagraphs": [
+                        {
+                            "number": "1.2.1",
+                            "body": "deutscher text subparagraph 1.2.1",
+                            "title": "Deutscher Titel zu Subparagraph 1.2.1"
+                        },
+                        {
+                            "number": "1.2.2",
+                            "body": "deutscher text subparagraph 1.1.2",
+                            "title": "Deutscher Titel zu Subparagraph 1.2.2"
+                        }
+                    ],
+                    "title": "Deutscher Titel zu Subparagraph 1.2"
+                }
+            ],
+            "title": "Deutscher Titel zu Paragraph 1"
+        },
+        {
+            "number": "2",
+            "body": "deutscher text paragraph 2",
+            "subparagraphs": [
+                {
+                    "number": "2.1",
+                    "body": "deutscher text subparagraph 2.1",
+                    "subparagraphs": [
+                        {
+                            "number": "1.1.1",
+                            "body": "deutscher text subparagraph 1.1.1",
+                            "title": "Deutscher Titel zu Subparagraph 2.1.1"
+                        },
+                        {
+                            "number": "1.1.2",
+                            "body": "deutscher text subparagraph 1.1.2",
+                            "title": "Deutscher Titel zu Subparagraph 2.1.2"
+                        }
+                    ],
+                    "title": "Deutscher Titel zu Subparagraph 2.1"
+                },
+                {
+                    "number": "2.2",
+                    "body": "deutscher text subparagraph 2.2",
+                    "title": "Deutscher Titel zu Subparagraph 2.2."
+                }
+            ],
+            "title": "Deutscher Titel zu Subparagraph 2"
+        }
+    ]
+}

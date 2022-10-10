@@ -1,0 +1,1365 @@
+{
+    "translation": {
+        "common": {
+            "email": "",
+            "password": "",
+            "continue": "",
+            "next": "",
+            "wait": "",
+            "errors": {
+                "closeErrorMessageLabel": ""
+            },
+            "login": "",
+            "logout": "",
+            "revealPassword": "",
+            "today": "",
+            "yesterday": "",
+            "thisWeek": "",
+            "tryAgainBody": "",
+            "tryAgain": "",
+            "goBack": "",
+            "progressLabel": "",
+            "backToLogin": "",
+            "cancel": "",
+            "heating": "",
+            "start": "",
+            "end": "",
+            "temp": "",
+            "save": "",
+            "dismiss": "",
+            "yes": "",
+            "no": "",
+            "ok": "",
+            "finish": "",
+            "close": "",
+            "retry": "",
+            "set": "",
+            "passwordRequirements": "",
+            "operationMode": "",
+            "options": "",
+            "off": "",
+            "manual": "",
+            "timeControlled": "",
+            "connect": "",
+            "permissions": {
+                "dialogHeadline": "",
+                "dialogDescription": ""
+            },
+            "imprint": "",
+            "legalNotice": "",
+            "messageRead": "",
+            "pleaseNote": "",
+            "or": "",
+            "learnMore": "",
+            "demoMode": "",
+            "demoExit": "",
+            "max": "",
+            "min": "",
+            "startOver": "",
+            "hide": "",
+            "waitHint30": "",
+            "saveChanges": ""
+        },
+        "errors": {
+            "network": {
+                "message": "",
+                "description": ""
+            },
+            "connectionError": {
+                "prefix": "",
+                "noInternet": "",
+                "tryAgainLater": "",
+                "checkConnection": ""
+            },
+            "quickVeto": {
+                "set": "",
+                "cancel": ""
+            },
+            "away": {
+                "set": "",
+                "cancel": ""
+            },
+            "timeWindows": {
+                "set": ""
+            },
+            "hotWaterBoost": {
+                "set": "",
+                "cancel": ""
+            },
+            "hotWaterTemp": {
+                "set": ""
+            },
+            "setbackTemp": {
+                "set": ""
+            },
+            "revertUnsupportedMode": {
+                "set": ""
+            },
+            "hotWaterOperationMode": {
+                "set": ""
+            },
+            "hotWaterTimeWindows": {
+                "set": ""
+            },
+            "manualModeSetPoint": {
+                "set": ""
+            },
+            "default": "",
+            "noSupportedGateway": {
+                "description": "",
+                "message": ""
+            },
+            "heatingOperationMode": {
+                "set": ""
+            },
+            "defaultTryLater": ""
+        },
+        "headers": {
+            "dashboard": "",
+            "settings": "",
+            "information": "",
+            "myInbox": "",
+            "failureList": "",
+            "operationalData": "",
+            "done": "",
+            "control": "",
+            "generalSettings": ""
+        },
+        "signup": {
+            "header": {
+                "headline": ""
+            },
+            "emailCapture": {
+                "headline": "",
+                "errors": {
+                    "matchesPattern": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "matchesRepetition": "",
+                    "alreadyExists": "",
+                    "forgotPassword": ""
+                },
+                "repeatEmail": ""
+            },
+            "countryCapture": {
+                "headline": "",
+                "select": "",
+                "placeholder": ""
+            },
+            "contactDetailsCapture": {
+                "headline": "",
+                "salutation": {
+                    "mr": "",
+                    "mrs": ""
+                },
+                "firstname": "",
+                "lastname": "",
+                "street": "",
+                "city": "",
+                "postalCode": "",
+                "phone": "",
+                "required": "",
+                "inputError": ""
+            },
+            "passwordCapture": {
+                "headline": "",
+                "emailUpdates": "",
+                "cta": "",
+                "termsAndConditionsAgreement": "",
+                "requirements": "",
+                "errors": {
+                    "notValidHeadline": "",
+                    "notValidDescription": ""
+                },
+                "globalErrors": {
+                    "authentication_serverError": {
+                        "message": "",
+                        "description": ""
+                    },
+                    "authentication_clientError": {
+                        "message": "",
+                        "description": ""
+                    }
+                },
+                "emailUpdatesSdbg": ""
+            },
+            "emailVerification": {
+                "resendEmailButton": "",
+                "pending": {
+                    "headline": "",
+                    "body": "",
+                    "resendEmailBody": "",
+                    "backToLogin": "",
+                    "timeOutNotice": ""
+                },
+                "expired": {
+                    "headline": "",
+                    "subline": ""
+                },
+                "resend": {
+                    "headline": "",
+                    "subline": ""
+                },
+                "waitForConfirmation": {
+                    "head": "",
+                    "body": ""
+                },
+                "confirm": {
+                    "headline": "",
+                    "body": "",
+                    "linkNoMail": "",
+                    "alreadyConfirmed": ""
+                },
+                "noMail": {
+                    "head": "",
+                    "subhead": "",
+                    "body": "",
+                    "cta": "",
+                    "wrongMailBody": "",
+                    "wrongMailCta": ""
+                }
+            },
+            "legalInformation": {
+                "termsAndConditions": "",
+                "privacyPolicy": ""
+            },
+            "legal": {
+                "terms": "",
+                "privacy": "",
+                "marketing": "",
+                "abroad": ""
+            }
+        },
+        "welcomeTour": {
+            "slidesVaillant": {
+                "headline": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "body": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "slidesSdbg": {
+                "headline": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "body": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "nextSlide": "",
+            "progressLabel": "",
+            "startDemo": "",
+            "done": "",
+            "startScreen": "",
+            "slides": {
+                "1": {
+                    "head": {
+                        "green": "",
+                        "red": ""
+                    },
+                    "body": ""
+                },
+                "2": {
+                    "body": "",
+                    "head": ""
+                },
+                "3": {
+                    "head": "",
+                    "body": ""
+                },
+                "4": {
+                    "head": "",
+                    "body": ""
+                },
+                "5": {
+                    "head": "",
+                    "body": {
+                        "red": "",
+                        "green": ""
+                    }
+                }
+            }
+        },
+        "signin": {
+            "forgotPasswordLabel": "",
+            "forgotPasswordButton": "",
+            "signupButton": "",
+            "upgradeLabelVaillant": "",
+            "upgradeLabelSdbg": "",
+            "upgradeButton": "",
+            "runDemo": "",
+            "generalError": "",
+            "invalidEmailError": "",
+            "emailConfirmed": "",
+            "resetPassword": {
+                "header": "",
+                "enterHeadline": "",
+                "enterBody": "",
+                "successHeadline": "",
+                "successBody": "",
+                "successCompletedQuestion": "",
+                "error": ""
+            },
+            "mismatchedEmailError": "",
+            "repeatPassword": "",
+            "mismatchedPasswordError": "",
+            "accountExistsError": {
+                "head": "",
+                "body": ""
+            }
+        },
+        "dashboard": {
+            "systemOff": "",
+            "heatingOff": "",
+            "systemOffButton": "",
+            "frostProtectionActive": "",
+            "humidity": "",
+            "outdoor": "",
+            "quickVeto": {
+                "desiredTemperature": "",
+                "willChangeInShortNotice": "",
+                "bottomSheetTitle": ""
+            },
+            "notifications": {
+                "common": {
+                    "systemsError": {
+                        "title": ""
+                    },
+                    "hint": {
+                        "title": ""
+                    }
+                },
+                "migrationInProcess": {
+                    "title": "",
+                    "headline": ""
+                },
+                "unknownError": {
+                    "title": "",
+                    "headline": ""
+                },
+                "migrationTokenExpired": {
+                    "title": "",
+                    "headline": "",
+                    "body": "",
+                    "cta": "",
+                    "inputPlaceholder": ""
+                },
+                "unsupportedMode": {
+                    "headline": "",
+                    "body": "",
+                    "details": "",
+                    "cta": ""
+                },
+                "controllerTypeNotCompatible": {
+                    "headline": "",
+                    "headlineWithType": ""
+                },
+                "controllerNotConnected": {
+                    "headline": ""
+                },
+                "controllerTimeZoneNotSynced": {
+                    "headline": "",
+                    "body": "",
+                    "cta": ""
+                },
+                "systemInfo": {
+                    "title": "",
+                    "noDevices": {
+                        "headline": ""
+                    }
+                },
+                "networkSetup": {
+                    "headline": "",
+                    "body": "",
+                    "cta": ""
+                },
+                "noNetworkAvailable": {
+                    "headline": "",
+                    "body": "",
+                    "cta": ""
+                },
+                "emmOnboarding": {
+                    "cta": "",
+                    "headline": "",
+                    "body": ""
+                },
+                "noGatewayAvailable": {
+                    "headline": "",
+                    "body": ""
+                }
+            },
+            "errorMessages": "",
+            "notificationsCount": "",
+            "statusActive": "",
+            "setTemp": "",
+            "ctaChangeTimer": "",
+            "awayModeActive": "",
+            "activateAwayMode": "",
+            "activateHwb": "",
+            "cancelAwayMode": "",
+            "header": {
+                "systemOff": ""
+            },
+            "eco": "",
+            "infoAwayMode": ""
+        },
+        "inbox": {
+            "infoHeader": "",
+            "infoText": "",
+            "systemFaultsHeader": "",
+            "systemMessageHeader": "",
+            "defaultText": ""
+        },
+        "operationalData": {
+            "waterPressure": "",
+            "flowTemperature": "",
+            "dhwTemperature": "",
+            "returnTemperature": "",
+            "tankTemperature": ""
+        },
+        "consumption": {
+            "gas": "",
+            "hotWater": "",
+            "lastUpdate": "",
+            "loading": "",
+            "last24h": "",
+            "last7d": "",
+            "last30d": "",
+            "last12mo": "",
+            "graph": {
+                "toggle": "",
+                "disclaimer": "",
+                "notAvailable": ""
+            },
+            "controls": {
+                "day": "",
+                "week": "",
+                "month": "",
+                "year": ""
+            },
+            "noData": "",
+            "hintDelay": {
+                "head": "",
+                "body": "",
+                "flyoutOldData": {
+                    "head": "",
+                    "body": ""
+                }
+            }
+        },
+        "settings": {
+            "manage": "",
+            "control": {
+                "label": "",
+                "sublabel": "",
+                "zone": "",
+                "generalSettings": "",
+                "heatingCurveSettings": "",
+                "turnSystemOff": "",
+                "controllerType": "",
+                "facilityLocation": "",
+                "thermostats": {
+                    "header": "",
+                    "cta": {
+                        "manage": ""
+                    }
+                }
+            },
+            "information": {
+                "label": "",
+                "sublabel": ""
+            },
+            "generalSettings": {
+                "label": "",
+                "sublabel": "",
+                "optInSection": "",
+                "optInExplanation": "",
+                "crashlyticsOptIn": "",
+                "analyticsOptIn": "",
+                "claimSection": "",
+                "claimExplanation": "",
+                "claimButton": "",
+                "claimAlertTitle": "",
+                "claimAlertMessage": "",
+                "claimAlertCta": "",
+                "suspendUserHeader": "",
+                "suspendUserDescription": "",
+                "suspendUserCTA": "",
+                "suspendUserConfirmation": {
+                    "headline": "",
+                    "text": "",
+                    "note": "",
+                    "noteAddGDPR": ""
+                },
+                "openSourceHeader": "",
+                "openSourceText": "",
+                "openSourceTextShort": "",
+                "suspendUserConfirmed": {
+                    "head": "",
+                    "body1": "",
+                    "body2": ""
+                },
+                "eebus": {
+                    "main": {
+                        "head": "",
+                        "menuItem": {
+                            "eebus": "",
+                            "gateway": ""
+                        },
+                        "devices": {
+                            "headTrusted": "",
+                            "headAvail": ""
+                        }
+                    },
+                    "commons": {
+                        "ski": "",
+                        "type": "",
+                        "model": "",
+                        "none": ""
+                    },
+                    "about": {
+                        "head": "",
+                        "body": ""
+                    },
+                    "gatewayInfo": {
+                        "head": ""
+                    },
+                    "connectDevice": {
+                        "head": "",
+                        "cta": ""
+                    },
+                    "trustedDevice": {
+                        "head": ""
+                    },
+                    "connectedDevice": {
+                        "cta1": "",
+                        "cta2": ""
+                    },
+                    "flyoutTrust": {
+                        "head": "",
+                        "body1": "",
+                        "body2": "",
+                        "cta1": "",
+                        "cta2": ""
+                    },
+                    "flyoutDistrust": {
+                        "head": "",
+                        "body1": "",
+                        "body2": "",
+                        "cta1": "",
+                        "cta2": ""
+                    },
+                    "label": ""
+                }
+            },
+            "timewindows": {
+                "temperatureSettings": "",
+                "setBackTemperature": "",
+                "weeklyPlanner": "",
+                "defaultText": "",
+                "defaultSubText": "",
+                "addButton": "",
+                "deleteButton": "",
+                "bottomSheetEditTitle": "",
+                "bottomSheetAddTitle": "",
+                "bottomSheetAddButton": "",
+                "notSavedBottomSheetTitle": "",
+                "notSavedBottomSheetText": "",
+                "setbackTemperatureBottomSheet": "",
+                "maximumReached": {
+                    "title": "",
+                    "description": ""
+                },
+                "copyDailySettings": "",
+                "copyDescription": "",
+                "copyPaste": ""
+            },
+            "hotWater": {
+                "boostActive": "",
+                "hotWater": "",
+                "boost": "",
+                "temperature": "",
+                "bottomSheetTitle": "",
+                "infoHeader": "",
+                "infoDescription": "",
+                "operationMode": {
+                    "header": "",
+                    "description": [
+                        "",
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "heating": {
+                "infoHeader": "",
+                "infoDescription": "",
+                "operationMode": {
+                    "header": "",
+                    "description": [
+                        "",
+                        "",
+                        ""
+                    ]
+                }
+            },
+            "sendFeedback": {
+                "label": ""
+            },
+            "heatingCurveSettings": {
+                "heatingCurveWizard": "",
+                "heatingCurveExpert": {
+                    "title": "",
+                    "itemSteepness": "",
+                    "itemFlowTemp": "",
+                    "headOutdoor": "",
+                    "confirmHead": "",
+                    "confirmBody": ""
+                },
+                "options": "",
+                "description": "",
+                "expertSettings": "",
+                "learnMore": "",
+                "info": {
+                    "label": "",
+                    "headline": "",
+                    "description": "",
+                    "listEntry0": "",
+                    "listEntry1": "",
+                    "listEntry2": "",
+                    "listEntry3": "",
+                    "listEntry4": "",
+                    "listEntry5": "",
+                    "listEntry6": "",
+                    "note": ""
+                }
+            },
+            "networkSettings": {
+                "label": "",
+                "sublabel": "",
+                "infoHeader": "",
+                "infoText": ""
+            },
+            "installationGuide": {
+                "label": ""
+            },
+            "wirelessSetup": {
+                "label": ""
+            },
+            "account": {
+                "sublabel": "",
+                "label": ""
+            },
+            "addThermostat": {
+                "startPairing": {
+                    "head": "",
+                    "body": ""
+                },
+                "pairThermostat": {
+                    "head": "",
+                    "body": ""
+                }
+            },
+            "thermostats": {
+                "header": "",
+                "title": "",
+                "description": "",
+                "connected": "",
+                "disconnected": "",
+                "noConnected": "",
+                "information": {
+                    "title": "",
+                    "signal": "",
+                    "rssi": "",
+                    "battery": "",
+                    "deviceType": "",
+                    "serialNumber": "",
+                    "softwareVersion": "",
+                    "batteryStatus": {
+                        "good": "",
+                        "low": "",
+                        "empty": ""
+                    }
+                },
+                "disconnectedHint": "",
+                "notSupportedHint": "",
+                "remove": "",
+                "removeCard": {
+                    "body": "",
+                    "cta": ""
+                },
+                "removeError": "",
+                "add": {
+                    "cta": "",
+                    "step1": "",
+                    "step2": "",
+                    "error": {
+                        "not_found": "",
+                        "hint": {
+                            "header": "",
+                            "1": "",
+                            "2": "",
+                            "3": ""
+                        }
+                    },
+                    "success": ""
+                },
+                "positioning": {
+                    "headline": "",
+                    "body": ""
+                },
+                "faq": {
+                    "headline": "",
+                    "do": {
+                        "headline": "",
+                        "1": "",
+                        "2": ""
+                    },
+                    "do_not": {
+                        "headline": "",
+                        "1": "",
+                        "2": ""
+                    }
+                }
+            },
+            "accountSettings": {
+                "changePassCTA": "",
+                "changePassHead": "",
+                "contactAddressHead": ""
+            }
+        },
+        "systemStatus": {
+            "hardwareFailure": "",
+            "severalHardwareFailure": "",
+            "maintenanceNeeded": "",
+            "maintenanceDue": "",
+            "checkFailureList": "",
+            "contactInstaller": "",
+            "dismiss": "",
+            "maintenanceRequired": {
+                "cta": "",
+                "head": "",
+                "body": ""
+            }
+        },
+        "manualMigrationStart": {
+            "headlineSdbg": "",
+            "headlineVaillant": "",
+            "codeInputPlaceholder": "",
+            "instructionsSdbg": "",
+            "instructionsVaillant": "",
+            "errors": {
+                "tokenExpiredVaillant": "",
+                "tokenNotFoundVaillant": "",
+                "invalidToken": "",
+                "tokenNotFoundSdbg": "",
+                "tokenExpiredSdbg": ""
+            }
+        },
+        "currentRoomTemperature": {
+            "current": ""
+        },
+        "awayMode": {
+            "awayActive": "",
+            "backHome": "",
+            "setbackTemp": ""
+        },
+        "gatewayIdentification": {
+            "start": {
+                "headline": "",
+                "explanation": "",
+                "cta": "",
+                "typeInSerialNumber": ""
+            },
+            "scan": {
+                "header": ""
+            },
+            "manualEntry": {
+                "header": "",
+                "headline": "",
+                "placeholder": "",
+                "cta": "",
+                "switchToScanMode": ""
+            },
+            "alreadyClaimedBottomSheet": {
+                "title": "",
+                "text": ""
+            },
+            "isNotMigratedBottomSheet": {
+                "title": "",
+                "text": ""
+            },
+            "invalidSerialNumberBottomSheet": {
+                "title": "",
+                "text": ""
+            },
+            "isNotCompatibleBottomSheet": {
+                "title": "",
+                "text": ""
+            },
+            "timeOut": {
+                "body": "",
+                "head": ""
+            },
+            "deniedCameraPermission": {
+                "headline": "",
+                "body": ""
+            }
+        },
+        "networkSetup": {
+            "header": "",
+            "connectionDecision": {
+                "headline": "",
+                "viaLan": "",
+                "viaWiFi": ""
+            },
+            "switchBoilerOn": {
+                "headline": "",
+                "description": ""
+            },
+            "switchOffBoiler": {
+                "headline": "",
+                "description": ""
+            },
+            "gatewayTypeSelection": {
+                "headline": "",
+                "body": ""
+            },
+            "deviceCheck": {
+                "headline": "",
+                "description": ""
+            },
+            "deviceRemoval": {
+                "headline": "",
+                "description": ""
+            },
+            "finishSteps": {
+                "search": {
+                    "headline": "",
+                    "description": ""
+                },
+                "alert": {
+                    "headline": "",
+                    "description": ""
+                },
+                "finish": {
+                    "headline": "",
+                    "description": ""
+                }
+            },
+            "permissionRequest": {
+                "title": "",
+                "message": "",
+                "positiveButton": "",
+                "negativeButton": ""
+            },
+            "error": {
+                "unknownNetworkSetupError": {
+                    "message": "",
+                    "description": ""
+                },
+                "wifiCannotConnectToAp": {
+                    "message": "",
+                    "description": ""
+                },
+                "wifiNotEnabled": {
+                    "message": "",
+                    "description": ""
+                },
+                "wifiConnectedToWrongGw": {
+                    "message": "",
+                    "description": ""
+                },
+                "restartSetup": "",
+                "selectNewSSID": "",
+                "networkConnectionFailed": "",
+                "serverConnectionFailed": "",
+                "locationNotEnabled": {
+                    "message": "",
+                    "description": ""
+                }
+            },
+            "wifi": {
+                "wallMount": {
+                    "gatewayToBoiler": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "plugInPowerAdapter": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "pairingSensoNetUnderneath": {
+                        "headline": "",
+                        "description": ""
+                    }
+                },
+                "yCable": {
+                    "findPairingButton": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "installGateway": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "waitForReady": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "pressPairing": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "waitForPairingFlashLight": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "closeLid": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "reinstallDevice": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "connectDeviceToAppliance": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "connectGateway": {
+                        "headline": "",
+                        "description": ""
+                    }
+                },
+                "connectPhone": {
+                    "headline": "",
+                    "description": ""
+                },
+                "connectPhoneManually": {
+                    "headline": "",
+                    "network": "",
+                    "passphrase": ""
+                },
+                "pickHomeNetwork": {
+                    "headline": "",
+                    "description": "",
+                    "wifiListHeadline": "",
+                    "noNetworkFound": "",
+                    "enterWifiSSIDManually": "",
+                    "ssidTooLong": ""
+                },
+                "enterHomeNetworkSsid": {
+                    "headline": "",
+                    "networkName": ""
+                },
+                "enterHomeNetworkPassword": {
+                    "headline": "",
+                    "requirements": "",
+                    "connect": "",
+                    "statusCheck": "",
+                    "wifiConnected": "",
+                    "backendConnected": ""
+                }
+            },
+            "lan": {
+                "wallMount": {
+                    "cablesToGateway": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "cableToBoiler": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "plugInPowerAdapter": {
+                        "headline": "",
+                        "description": ""
+                    }
+                },
+                "boilerMount": {
+                    "lanToGateway": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "eBusToBoiler": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "reinstallGateway": {
+                        "headline": "",
+                        "description": ""
+                    },
+                    "connectGatewayToBoiler": {
+                        "headline": "",
+                        "description": ""
+                    }
+                }
+            },
+            "CAG": {
+                "checkBoilerType": {
+                    "headline": "",
+                    "body": "",
+                    "serviceNeeded": {
+                        "headline": "",
+                        "body": "",
+                        "primaryCTA": "",
+                        "secondaryCTA": ""
+                    }
+                },
+                "checkPreinstalledCAG": {
+                    "headline": "",
+                    "body": ""
+                },
+                "checkPreinstalledDevices": {
+                    "headline": "",
+                    "body": ""
+                },
+                "switchOffBoiler": {
+                    "headline": "",
+                    "body": ""
+                },
+                "connectEbus": {
+                    "headline": "",
+                    "body": ""
+                },
+                "multipleDevices": {
+                    "installBracket": {
+                        "headline": "",
+                        "body": ""
+                    },
+                    "connectGateway": {
+                        "headline": "",
+                        "body": ""
+                    },
+                    "switchOn": {
+                        "body": "",
+                        "headline": ""
+                    }
+                },
+                "pairingCAG": {
+                    "headline": "",
+                    "body": ""
+                },
+                "CAGOnly": {
+                    "connectGateway": {
+                        "headline": "",
+                        "body": ""
+                    },
+                    "switchOn": {
+                        "headline": "",
+                        "body": ""
+                    }
+                },
+                "homeKit": {
+                    "headline": "",
+                    "body": "",
+                    "CTA": "",
+                    "instructionsStep1": "",
+                    "instructionsStep2": "",
+                    "instructionsStep3": "",
+                    "continueHeadline": "",
+                    "instructionsStep2a": "",
+                    "searching": "",
+                    "pickBridge": {
+                        "body": "",
+                        "head": "",
+                        "noGateway": {
+                            "head": "",
+                            "body": ""
+                        },
+                        "devicesFound": ""
+                    },
+                    "finish": {
+                        "CTA": ""
+                    },
+                    "success": {
+                        "head": "",
+                        "body": ""
+                    }
+                }
+            },
+            "finalCheck": {
+                "headline": "",
+                "body": ""
+            },
+            "status": {
+                "establishingNetworkConnection": "",
+                "connectingToServer": "",
+                "networkConnectionSuccessful": "",
+                "connectionToServerSuccessful": "",
+                "setupSuccessful": {
+                    "text": "",
+                    "headline": ""
+                },
+                "systemScan": {
+                    "head": "",
+                    "body": ""
+                }
+            },
+            "guidedInstallation": {
+                "headline": "",
+                "description": "",
+                "CTA": "",
+                "skipMessage": "",
+                "skipCTA": ""
+            },
+            "noPermission": {
+                "head": "",
+                "body": "",
+                "ctaSettings": "",
+                "ctaRestart": ""
+            },
+            "noHomekitPermission": {
+                "body": "",
+                "head": ""
+            }
+        },
+        "heatingCurveWizard": {
+            "header": "",
+            "heatingType": {
+                "description": "",
+                "radiator": "",
+                "floorHeating": "",
+                "notSureButton": ""
+            },
+            "houseAge": {
+                "description": "",
+                "moreThan20Years": "",
+                "lessThan20Years": "",
+                "notSure": ""
+            },
+            "insulation": {
+                "description": "",
+                "yes": "",
+                "no": "",
+                "notSure": ""
+            },
+            "finalScreen": {
+                "headline": "",
+                "description": ""
+            },
+            "facilityLocation": {
+                "header": "",
+                "relevanceDescription": "",
+                "adjustButtonLabel": "",
+                "confirmButtonLabel": "",
+                "editingHeadline": "",
+                "editingInfo": ""
+            },
+            "introduction": {
+                "description": "",
+                "headline": ""
+            }
+        },
+        "heatingCurveExpert": {
+            "featureNotAvailable": "",
+            "heatingCurve": "",
+            "resetDefaultSettings": ""
+        },
+        "messages": {
+            "firmwareupdate": {
+                "inprogress": {
+                    "msghead": "",
+                    "msgbody": ""
+                }
+            }
+        },
+        "information": {
+            "actualFlowTemperature": {
+                "heatingCircuit": ""
+            },
+            "installationFlowTemperature": "",
+            "sublabel": {
+                "installation": ""
+            },
+            "waterPressure": "",
+            "dhwTemperature": "",
+            "head": "",
+            "copy": "",
+            "noInfo": ""
+        },
+        "update": {
+            "info": {
+                "head": "",
+                "body": "",
+                "ctaInstall": "",
+                "ctaLater": "",
+                "appObsolete": {
+                    "head": "",
+                    "body": ""
+                }
+            }
+        },
+        "energyInfo": {
+            "sectionHead": "",
+            "systemPicker": {
+                "system": "",
+                "heatPumpOnly": "",
+                "backupHeater": "",
+                "heatPumpSystem": "",
+                "gasBoiler": ""
+            },
+            "rangeHead": {
+                "weekly": "",
+                "daily": "",
+                "monthly": "",
+                "yearly": "",
+                "selected": "",
+                "total": ""
+            },
+            "usagePicker": {
+                "heating": "",
+                "dhw": "",
+                "cooling": ""
+            },
+            "tileHead": {
+                "efficiency": "",
+                "heat": "",
+                "cooling": "",
+                "envYield": "",
+                "electricCon": "",
+                "opTime": "",
+                "cycles": "",
+                "status": "",
+                "waterPressure": "",
+                "dhwTemp": "",
+                "instFlowTemp": "",
+                "actualFlowTemp": "",
+                "dhw": "",
+                "solarThermalEnergy": "",
+                "ventilationSystem": "",
+                "additionalComp": "",
+                "currentCon": ""
+            },
+            "shareReport": {
+                "body": "",
+                "cta": ""
+            },
+            "graphSelect": {
+                "outdoorTemp": "",
+                "indoorTemp": ""
+            },
+            "disclaimer": {
+                "body": ""
+            },
+            "rangeCta": "",
+            "detailedView": {
+                "head": ""
+            },
+            "label": {
+                "indoor": "",
+                "outdoor": ""
+            },
+            "system": {
+                "head": {
+                    "1": ""
+                },
+                "subline": {
+                    "1": ""
+                }
+            },
+            "learnMore": {
+                "efficiency": ""
+            },
+            "tile": {
+                "solarThermalEnergy": "",
+                "ventilationSystem": ""
+            },
+            "flyout": {
+                "ventilationSystem": {
+                    "head": "",
+                    "body": ""
+                },
+                "solarThermalEnergy": {
+                    "head": "",
+                    "body": ""
+                },
+                "powerLimited": {
+                    "head": "",
+                    "body": ""
+                }
+            },
+            "error": {
+                "noData": {
+                    "head": "",
+                    "copy": "",
+                    "copyFAQ": ""
+                }
+            }
+        },
+        "systemInformation": {
+            "yourSystem": {
+                "systemInfo": {
+                    "headline": ""
+                },
+                "devicePicker": {
+                    "headline": ""
+                }
+            }
+        },
+        "signIn": {
+            "countryPicker": {
+                "header": ""
+            },
+            "alreadyAccount": "",
+            "continue": "",
+            "migration": {
+                "switch": {
+                    "sdbg": {
+                        "header": "",
+                        "body": ""
+                    },
+                    "vaillant": {
+                        "header": "",
+                        "body": ""
+                    }
+                },
+                "primary": "",
+                "secondary": ""
+            }
+        },
+        "dashboard:leginonella": "",
+        "appStore": {
+            "slides": {
+                "headline": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        },
+        "common:appName": {
+            "vaillant": "",
+            "sdbg": ""
+        },
+        "signUp": {
+            "migration": {
+                "secondary": ""
+            }
+        }
+    }
+}

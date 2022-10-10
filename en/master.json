@@ -1,0 +1,75 @@
+{
+    "title": "Title of this thing",
+    "paragraphs": [
+        {
+            "number": "1",
+            "body": "Text of paragraph 1",
+            "subparagraphs": [
+                {
+                    "number": "1.1",
+                    "body": "Text of sub 1.1",
+                    "subparagraphs": [
+                        {
+                            "number": "1.1.1",
+                            "body": "Text of sub 1.1.1 (It has a List inside)",
+                            "title": "Title of Subparagraph 1.1.1"
+                        },
+                        {
+                            "number": "1.1.2",
+                            "body": "Text of sub 1.1.2",
+                            "title": "Title of Subparagraph 1.1.2"
+                        }
+                    ],
+                    "title": "Title of Subparagraph 1.1"
+                },
+                {
+                    "number": "1.2",
+                    "body": "Text of sub 1.2",
+                    "subparagraphs": [
+                        {
+                            "number": "1.2.1",
+                            "body": "Text of sub 1.2.1",
+                            "title": "Title of Subparagraph 1.2.1"
+                        },
+                        {
+                            "number": "1.2.2",
+                            "body": "Text of sub 1.1.2",
+                            "title": "Title of Subparagraph 1.2.2"
+                        }
+                    ],
+                    "title": "Title of Subparagraph 1.2"
+                }
+            ],
+            "title": "Title of Paragraph 1"
+        },
+        {
+            "number": "2",
+            "body": "Text of paragraph 2",
+            "subparagraphs": [
+                {
+                    "number": "2.1",
+                    "body": "Text of sub 2.1",
+                    "subparagraphs": [
+                        {
+                            "number": "1.1.1",
+                            "body": "Text of sub 1.1.1",
+                            "title": "Title of Paragraph 2.1.1"
+                        },
+                        {
+                            "number": "1.1.2",
+                            "body": "Text of sub 1.1.2",
+                            "title": "Title of Paragraph 2.1.2"
+                        }
+                    ],
+                    "title": "Title of Paragraph 2.1"
+                },
+                {
+                    "number": "2.2",
+                    "body": "Text of sub 2.2",
+                    "title": "Title of Paragraph 2.2"
+                }
+            ],
+            "title": "Title of Paragraph 2"
+        }
+    ]
+}
