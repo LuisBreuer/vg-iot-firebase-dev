@@ -1,0 +1,1366 @@
+{
+    "translation": {
+        "common": {
+            "email": "E-mail",
+            "password": "Password",
+            "continue": "Continue",
+            "next": "Next",
+            "wait": "Please wait...",
+            "errors": {
+                "closeErrorMessageLabel": "Close error message"
+            },
+            "login": "Log in",
+            "logout": "Log out",
+            "revealPassword": "Display password",
+            "today": "Today",
+            "yesterday": "Yesterday",
+            "thisWeek": "This week",
+            "tryAgainBody": "Please try again in a few minutes.",
+            "tryAgain": "Try again",
+            "goBack": "Back",
+            "progressLabel": "Step {{currentStep}} of {{allSteps}}",
+            "backToLogin": "Back to log-on",
+            "cancel": "Cancel",
+            "heating": "Heating",
+            "start": "Start",
+            "end": "End",
+            "temp": "Temp.",
+            "save": "Save",
+            "dismiss": "Dismiss",
+            "yes": "Yes",
+            "no": "No",
+            "ok": "Ok",
+            "finish": "Finish",
+            "close": "Close",
+            "retry": "Retry",
+            "set": "Set",
+            "passwordRequirements": "Password requirements",
+            "operationMode": "Operation mode",
+            "options": "options",
+            "off": "Off",
+            "manual": "Manual",
+            "timeControlled": "Time-contr.",
+            "connect": "Connect",
+            "permissions": {
+                "dialogHeadline": "Allow “myVAILLANT” to access your location while you use the app.",
+                "dialogDescription": "This permission is required to search for available Wi-Fi networks."
+            },
+            "imprint": "Imprint",
+            "legalNotice": "Legal Notice",
+            "messageRead": "Don't show this message again",
+            "pleaseNote": "Please note",
+            "or": "or",
+            "learnMore": "Learn more",
+            "demoMode": "(Demo)",
+            "demoExit": "Exit demo",
+            "max": "max.",
+            "min": "min.",
+            "startOver": "Start over",
+            "hide": "Hide",
+            "waitHint30": "This may take up to 30 seconds.",
+            "saveChanges": "Save changes",
+            "test": "Test key"
+        },
+        "errors": {
+            "network": {
+                "message": "Network error",
+                "description": "Sorry, an error has occurred. Please try again later."
+            },
+            "connectionError": {
+                "prefix": "Problem with",
+                "noInternet": "Internet not available",
+                "tryAgainLater": "An error occurred. Please try again later.",
+                "checkConnection": "Please check your network connection."
+            },
+            "quickVeto": {
+                "set": "“manual override“",
+                "cancel": "“cancel manual override“"
+            },
+            "away": {
+                "set": "“absence mode“",
+                "cancel": "“cancel absence mode“"
+            },
+            "timeWindows": {
+                "set": "“time windows“"
+            },
+            "hotWaterBoost": {
+                "set": "“hot water boost“",
+                "cancel": "“cancel hot water boost“"
+            },
+            "hotWaterTemp": {
+                "set": "“hot water temperature setpoint“"
+            },
+            "setbackTemp": {
+                "set": "“set-back temperature“"
+            },
+            "revertUnsupportedMode": {
+                "set": "“set back to supported mode“"
+            },
+            "hotWaterOperationMode": {
+                "set": "“hot water operation mode“"
+            },
+            "hotWaterTimeWindows": {
+                "set": "“hot water time windows“"
+            },
+            "manualModeSetPoint": {
+                "set": "“manual mode setpoint“"
+            },
+            "default": "Something went wrong",
+            "noSupportedGateway": {
+                "description": "Gateway not found or not (yet) supported. Please check your current setup.",
+                "message": "No supported gateway"
+            },
+            "heatingOperationMode": {
+                "set": "“heating operation mode“"
+            },
+            "defaultTryLater": "Please try again at a later time. If the problem persists, please contact our customer service."
+        },
+        "headers": {
+            "dashboard": "Dashboard",
+            "settings": "Settings",
+            "information": "Information",
+            "myInbox": "Inbox",
+            "failureList": "Problem list",
+            "operationalData": "Choose what you would like to see on your dashboard",
+            "done": "Complete",
+            "control": "Control",
+            "generalSettings": "General settings"
+        },
+        "signup": {
+            "header": {
+                "headline": "Create new account"
+            },
+            "emailCapture": {
+                "headline": "Please enter your e-mail address.",
+                "errors": {
+                    "matchesPattern": "E-mail address not valid",
+                    "minLength": "E-mail address too short",
+                    "maxLength": "E-mail address too long",
+                    "matchesRepetition": "E-mail addresses don't match",
+                    "alreadyExists": "An account for this e-mail address already exists.",
+                    "forgotPassword": "Forgotten your password?"
+                },
+                "repeatEmail": "Repeat e-mail"
+            },
+            "countryCapture": {
+                "headline": "Please select your installation site",
+                "select": "Selection",
+                "placeholder": "Country"
+            },
+            "contactDetailsCapture": {
+                "headline": "Please enter your personal data.",
+                "salutation": {
+                    "mr": "Mr",
+                    "mrs": "Ms"
+                },
+                "firstname": "First name",
+                "lastname": "Surname",
+                "street": "Street",
+                "city": "City",
+                "postalCode": "Postcode",
+                "phone": "Phone number",
+                "required": "These fields are mandatory fields",
+                "inputError": "The following fields contain errors or are not available:"
+            },
+            "passwordCapture": {
+                "headline": "Please enter your password.",
+                "emailUpdates": "I consent to Vaillant informing me about offers and promotions via e-mail. I can revoke this consent with effect for the future at any time. Vaillant data protection guidelines apply.",
+                "cta": "Create account",
+                "termsAndConditionsAgreement": "By creating my account, I agree to the <2>Terms of Use<\/2> and <6>Data Protection Guidelines<\/6>.",
+                "requirements": "Minimum eight characters, one lower-case letter, one upper-case letter, one number and should not include parts of your e-mail address.",
+                "errors": {
+                    "notValidHeadline": "Password requirements have not been met",
+                    "notValidDescription": "Your password does not meet our password requirements. Your password needs to be a minimum of eight characters, one lower-case letter, one upper-case letter, one number and should not include parts of your e-mail address."
+                },
+                "globalErrors": {
+                    "authentication_serverError": {
+                        "message": "Network error",
+                        "description": "Sorry, an error has occurred. Please try again later."
+                    },
+                    "authentication_clientError": {
+                        "message": "Error",
+                        "description": "Sorry, an error has occurred. Check your e-mail address and password and try again."
+                    }
+                },
+                "emailUpdatesSdbg": "I consent to Saunier Duval informing me about offers and promotions via e-mail. I can revoke this consent with effect for the future at any time. Saunier Duval data protection guidelines apply."
+            },
+            "emailVerification": {
+                "resendEmailButton": "Resend e-mail to this address:",
+                "pending": {
+                    "headline": "Check your e-mail address.",
+                    "body": "A confirmation e-mail was sent to you. If you cannot find it, please check your spam folder or correct the e-mail address in your user account.",
+                    "resendEmailBody": "You haven't received a confirmation e-mail?",
+                    "backToLogin": "If you have received a confirmation e-mail from us, log in now to complete your registration process.",
+                    "timeOutNotice": "Please note that there is a time limit of 30 minutes for completing the network setup."
+                },
+                "expired": {
+                    "headline": "Verification link expired",
+                    "subline": "Resend confirmation e-mail to:"
+                },
+                "resend": {
+                    "headline": "Resend confirmation e-mail",
+                    "subline": "Please enter your e-mail address and press the button to send it again."
+                },
+                "waitForConfirmation": {
+                    "head": "One moment please",
+                    "body": "E-mail confirmation in progress"
+                },
+                "confirm": {
+                    "headline": "Confirm e-mail address",
+                    "body": "To confirm your e-mail address, please click on the link in the mail we just sent to:",
+                    "linkNoMail": "Click here if you have not received our e-mail",
+                    "alreadyConfirmed": "You have confirmed your e-mail address already?\nLog in now to continue with your registration."
+                },
+                "noMail": {
+                    "head": "You have not received our e-mail?",
+                    "subhead": "This is what you can do:",
+                    "body": "Make sure that the above e-mail address is correct. You can change it in your account settings.\nCheck your spam folder.\nTry again by resending the confirmation e-mail.",
+                    "cta": "Resend mail",
+                    "wrongMailBody": "This is not your correct e-mail address?",
+                    "wrongMailCta": "Contact support"
+                }
+            },
+            "legalInformation": {
+                "termsAndConditions": "Terms of Use",
+                "privacyPolicy": "Data Protection Guidelines"
+            },
+            "legal": {
+                "terms": "I have read and agree to the Terms & Conditions.",
+                "privacy": "I agree to the usage of my data in accordance with the Privacy Policy.",
+                "marketing": "I would like to be informed about relevant news, products, offers and promotions by Vaillant Group via e-mail. I can revoke my consent with effect for the future at any time by clicking “Unsubscribe” in one of these e-mails or by letter to the address mentioned in our privacy policy.",
+                "abroad": "I agree to my data being stored and processed on servers abroad."
+            }
+        },
+        "welcomeTour": {
+            "slidesVaillant": {
+                "headline": [
+                    "Welcome to myVAILLANT",
+                    "Dashboard For All Essential Functions",
+                    "Quick And Easy To Use",
+                    "Vivid Design",
+                    "Consumption Data at a Glance",
+                    "You’re all set!"
+                ],
+                "body": [
+                    "Controlling your Vaillant appliance is now smarter, faster, more intuitive, more beautiful and more technologically advanced than ever before.",
+                    "Access to all essential functions in one single, tidy and uncluttered screen with a brand-new user interface.",
+                    "Managing the weekly planner as well as all other settings of your appliance is fast and comfortable.",
+                    "Smooth animations visualize the appliance’s current status and instantly respond to your actions.",
+                    "All important consumption data, clearly displayed in one central place. Save money and protect the environment!",
+                    "Start myVAILLANT now and enjoy the new intuitive control over your VAILLANT appliance!"
+                ]
+            },
+            "slidesSdbg": {
+                "headline": [
+                    "Welcome to MiGo Link",
+                    "Dashboard For All Essential Functions",
+                    "Quick And Easy To Use",
+                    "Vivid Design",
+                    "Consumption Data at a Glance",
+                    "You’re all set!"
+                ],
+                "body": [
+                    "Controlling your appliance is now smarter, faster, more intuitive, more beautiful and more technologically advanced than ever before.",
+                    "Access to all essential functions in one single, tidy and uncluttered screen with a brand-new user interface.",
+                    "Managing the weekly planner as well as all other settings of your appliance is fast and comfortable.",
+                    "Smooth animations visualize the appliance’s current status and instantly respond to your actions.",
+                    "All important consumption data, clearly displayed in one central place. Save money and protect the environment!",
+                    "Start MiGo Link now and enjoy the new intuitive control over your appliance!"
+                ]
+            },
+            "nextSlide": "Next",
+            "progressLabel": "Slide {{currentSlide}} of {{allSlides}}",
+            "startDemo": "Start demo",
+            "done": "Start",
+            "startScreen": "Smart and simple heating control",
+            "slides": {
+                "1": {
+                    "head": {
+                        "green": "Welcome to myVAILLANT",
+                        "red": "Welcome to MiGo Link"
+                    },
+                    "body": "To help you get started, here is a brief introduction to our app’s three main screens"
+                },
+                "2": {
+                    "body": "This is where it all happens: check your heating’s status, manage heating zones, quickly change the desired temperature, and access all advanced functions.",
+                    "head": "The new dashboard"
+                },
+                "3": {
+                    "head": "Energy information",
+                    "body": "A detailed overview of your heating system’s consumption data. Here you’ll find all the info you need to make better decisions about your heating schedule."
+                },
+                "4": {
+                    "head": "Easy automation",
+                    "body": "We all have our day-by-day routines. With the weekly planner you teach your heating to adjust to your habits. Save energy and reduce costs!"
+                },
+                "5": {
+                    "head": "You’re ready to go!",
+                    "body": {
+                        "red": "Tap on “Start” and enjoy the latest version of MiGo Link!",
+                        "green": "Tap on “Start” and enjoy the latest version of myVAILLANT!"
+                    }
+                }
+            }
+        },
+        "signin": {
+            "forgotPasswordLabel": "Unable to log in?",
+            "forgotPasswordButton": "Forgotten your password?",
+            "signupButton": "Create new account",
+            "upgradeLabelVaillant": "Would you like to upgrade your VRC 700 app or sensoAPP?",
+            "upgradeLabelSdbg": "Would you like to upgrade your MiControl app?",
+            "upgradeButton": "Upgrade assistant",
+            "runDemo": "Start demo",
+            "generalError": "Incorrect login credentials or account temporarily blocked",
+            "invalidEmailError": "E-mail address not valid",
+            "emailConfirmed": "Your e-mail address has been confirmed.",
+            "resetPassword": {
+                "header": "Reset password",
+                "enterHeadline": "Enter e-mail address",
+                "enterBody": "Please enter the e-mail address that is linked to your account. We will then send you a link to reset your password.",
+                "successHeadline": "A link to reset the password has been sent",
+                "successBody": "Please look for an e-mail to reset your password in your inbox or spam folder.",
+                "successCompletedQuestion": "Were you able to reset your password?",
+                "error": "Not a valid e-mail address"
+            },
+            "mismatchedEmailError": "E-mail addresses do not match. Please check.",
+            "repeatPassword": "Repeat password",
+            "mismatchedPasswordError": "Passwords do not match. Please try again.",
+            "accountExistsError": {
+                "head": "E-Mail address already in use",
+                "body": "An account with this e-mail address already exists. Please use a different address or log in with this account."
+            }
+        },
+        "dashboard": {
+            "systemOff": "OFF",
+            "heatingOff": "HEATING OFF",
+            "systemOffButton": "SWITCH ON MY SYSTEM",
+            "frostProtectionActive": "Frost protection active",
+            "humidity": "Air humidity",
+            "outdoor": "Outdoor",
+            "quickVeto": {
+                "desiredTemperature": "Desired room temp. until: ",
+                "willChangeInShortNotice": "Manual override will end shortly.",
+                "bottomSheetTitle": "<0>Set timer<\/0> for desired temperature of <3>{{desiredRoomTemperature}}<\/3>°C"
+            },
+            "notifications": {
+                "common": {
+                    "systemsError": {
+                        "title": "{{appName}} SYSTEM"
+                    },
+                    "hint": {
+                        "title": "{{appName}} SYSTEM"
+                    }
+                },
+                "migrationInProcess": {
+                    "title": "UPGRADE ASSISTANT",
+                    "headline": "Upgrade process is still active"
+                },
+                "unknownError": {
+                    "title": "UNKNOWN PROBLEM",
+                    "headline": "An unknown problem occurred when loading data from your heating system."
+                },
+                "migrationTokenExpired": {
+                    "title": "CODE EXPIRED OR INVALID",
+                    "headline": "Your upgrade code has expired",
+                    "body": "Please enter the new code. To receive a new code, please return to {{oldControllerAppName}}.",
+                    "cta": "Verify code",
+                    "inputPlaceholder": "Enter new code"
+                },
+                "unsupportedMode": {
+                    "headline": "Unsupported changes detected",
+                    "body": "Manual operation detected. Have you changed the operating mode on your control?",
+                    "details": "This operating mode is not currently supported by the {{appName}} app. However, your system works as expected.",
+                    "cta": "Back to app mode"
+                },
+                "controllerTypeNotCompatible": {
+                    "headline": "Your control type is not supported.",
+                    "headlineWithType": "Your control type {{controlType}} is not supported."
+                },
+                "controllerNotConnected": {
+                    "headline": "Your control is not connected."
+                },
+                "controllerTimeZoneNotSynced": {
+                    "headline": "The time zone for your control has not been synchronised.",
+                    "body": "Please try to synchronise your time zone with the control.",
+                    "cta": "Synchronise"
+                },
+                "systemInfo": {
+                    "title": "SYSTEM INFO",
+                    "noDevices": {
+                        "headline": "We were unable to find your heating system."
+                    }
+                },
+                "networkSetup": {
+                    "headline": "Network setup required",
+                    "body": "Your internet gateway requires a network setup first.",
+                    "cta": "Network setup"
+                },
+                "noNetworkAvailable": {
+                    "headline": "Network connection required",
+                    "body": "Please run the network setup now – it will guide you through all steps necessary to establish your connection.",
+                    "cta": "Network setup"
+                },
+                "emmOnboarding": {
+                    "cta": "Next",
+                    "headline": "Heating settings optimisation",
+                    "body": "Answer a few simple questions to optimise your heating settings automatically."
+                },
+                "noGatewayAvailable": {
+                    "headline": "Gateway unreachable",
+                    "body": "Have you changed your Wi-Fi password or settings?\nIs the gateway connected to an outlet and switched on?"
+                }
+            },
+            "errorMessages": "{{messageCount}} Error message(s)",
+            "notificationsCount": "{{notificationCount}} Notification(s)",
+            "statusActive": "Currently active",
+            "setTemp": "Until",
+            "ctaChangeTimer": "(Tap to change duration)",
+            "awayModeActive": "Away mode active",
+            "activateAwayMode": "Activate Away mode",
+            "activateHwb": "Activate Hot water boost",
+            "cancelAwayMode": "Cancel Away mode",
+            "header": {
+                "systemOff": "System off"
+            },
+            "eco": "Eco",
+            "infoAwayMode": "If you set a return date and time, the away mode will end accordingly.\nFor more than 48 hours of scheduled absence, hot water production will be suspended as well.\nPlease note: the temperature of your hot water may be higher than usual upon your return, since legionella protection will be activated automatically after 48 hours."
+        },
+        "inbox": {
+            "infoHeader": "Your notifications",
+            "infoText": "This is where you can find all system messages relevant to you, like error notifications, update information etc.",
+            "systemFaultsHeader": "Faults and System Errors",
+            "systemMessageHeader": "System messages",
+            "defaultText": "You have no new system messages."
+        },
+        "operationalData": {
+            "waterPressure": "Water pressure",
+            "flowTemperature": "Flow temperature",
+            "dhwTemperature": "Water temperature",
+            "returnTemperature": "Return temperature",
+            "tankTemperature": "Cylinder temperature"
+        },
+        "consumption": {
+            "gas": "Gas consumption",
+            "hotWater": "Domestic hot water",
+            "lastUpdate": "Last system info update: {{time}}",
+            "loading": "Loading data...",
+            "last24h": "Last 24 hrs",
+            "last7d": "Last 7 days",
+            "last30d": "Last 30 days",
+            "last12mo": "Last 12 months",
+            "graph": {
+                "toggle": "Switch to diagram view",
+                "disclaimer": "All displayed data is based on estimations of your average energy consumption.",
+                "notAvailable": "Data not available"
+            },
+            "controls": {
+                "day": "Day",
+                "week": "Week",
+                "month": "Month",
+                "year": "Year"
+            },
+            "noData": "Data collection initiated.\nIt can take up 48h before values are displayed here.",
+            "hintDelay": {
+                "head": "Collecting consumption data",
+                "body": "This may take up to 3 hours.",
+                "flyoutOldData": {
+                    "head": "Please note",
+                    "body": "Consumption data for your selected time period are not yet available. This usually occurs if your system was not connected to the internet at that time. Historical data from your previous app will be added within the next few weeks. Thank you for your patience."
+                }
+            }
+        },
+        "settings": {
+            "manage": "MANAGE",
+            "control": {
+                "label": "Control",
+                "sublabel": "Heating, cooling, domestic hot water",
+                "zone": "Zone {{count}}",
+                "generalSettings": "General settings",
+                "heatingCurveSettings": "Heating curve settings",
+                "turnSystemOff": "Turn System Off",
+                "controllerType": "Controller type:",
+                "facilityLocation": "Location (for weather data)",
+                "thermostats": {
+                    "header": "Thermostats",
+                    "cta": {
+                        "manage": "Manage thermostats"
+                    }
+                }
+            },
+            "information": {
+                "label": "Information",
+                "sublabel": "Water pressure, flow temperature"
+            },
+            "generalSettings": {
+                "label": "General settings",
+                "sublabel": "Tracking opt-ins, delete user account",
+                "optInSection": "Tracking opt ins",
+                "optInExplanation": "We use these services to improve our product. The opt-ins are limited to this device only.",
+                "crashlyticsOptIn": "By enabling Google Crashlytics you it helps us to analyse crashes and errors occurring in the app.",
+                "analyticsOptIn": "By enabling Google Analytics you allow us to collect event data of your app usage to improve the overall app experience.",
+                "claimSection": "Remove Appliance",
+                "claimExplanation": "This permanently deletes the connection to your appliance from your account. You will no longer be able to control your appliance through this app. To re-connect it, start the setup again.",
+                "claimButton": "Remove appliance now",
+                "claimAlertTitle": "Removing your appliance",
+                "claimAlertMessage": "Are you sure you want to remove the appliance from your account? This cannot be undone.",
+                "claimAlertCta": "OK",
+                "suspendUserHeader": "Delete user account",
+                "suspendUserDescription": "This will delete your user account permanently. If you wish to continue using the app you will have to set up a new account.",
+                "suspendUserCTA": "Delete account now",
+                "suspendUserConfirmation": {
+                    "headline": "Are you sure?",
+                    "text": "Your user account will be deleted permanently.",
+                    "note": "Please note that it can take up to 48 hours before your data is deleted completely from our servers.",
+                    "noteAddGDPR": "If you would like to request a complete deletion of your personal data, you may do so by sending us an <2>e-mail<2>."
+                },
+                "openSourceHeader": "Open source notice",
+                "openSourceText": "Vaillant products and apps contain open-source software (OSS). To find out more about the OSS used please visit:",
+                "openSourceTextShort": "Free and open source software. Find out more:",
+                "suspendUserConfirmed": {
+                    "head": "Account successfully deleted",
+                    "body1": "You can create a new account with your e-mail address any time.",
+                    "body2": "Please note that in order to remove all data from your gateway as well, you will have to run a factory reset on the device."
+                },
+                "eebus": {
+                    "main": {
+                        "head": "EEBUS",
+                        "menuItem": {
+                            "eebus": "EEBUS",
+                            "gateway": "Gateway info"
+                        },
+                        "devices": {
+                            "headTrusted": "TRUSTED DEVICES",
+                            "headAvail": "AVAILABLE DEVICES"
+                        }
+                    },
+                    "commons": {
+                        "ski": "SKI",
+                        "type": "BRAND\/TYPE",
+                        "model": "MODEL",
+                        "none": "None"
+                    },
+                    "about": {
+                        "head": "About EEBUS",
+                        "body": "EEBUS is an international communications standard for the intelligent networking of smart home applications. Your Vaillant heating system can use EEBUS to communicate with compatible devices from other manufacturers – for example in order to allow for a fully automatic energy management that uses energy more efficiently."
+                    },
+                    "gatewayInfo": {
+                        "head": "Gateway info"
+                    },
+                    "connectDevice": {
+                        "head": "Connect device",
+                        "cta": "CONNECT"
+                    },
+                    "trustedDevice": {
+                        "head": "Trusted device"
+                    },
+                    "connectedDevice": {
+                        "cta1": "DISCONNECT",
+                        "cta2": "REMOVE"
+                    },
+                    "flyoutTrust": {
+                        "head": "Trust this device?",
+                        "body1": "Before you connect this device, please confirm that you trust it. Make sure the SKI number displayed here matches the one on the device you wish to connect.",
+                        "body2": "Once you trust and connect a device, it (and its manufacturer) has access to your Vaillant system’s data. It can store and process your data or pass them on to third parties. Manufacturer’s terms apply.",
+                        "cta1": "Trust",
+                        "cta2": "Cancel"
+                    },
+                    "flyoutDistrust": {
+                        "head": "Untrust this device?",
+                        "body1": "Untrusting this device means that it will be removed from your list of trusted devices. All its settings will be deleted, and you will no longer be able to connect to it.",
+                        "body2": "If you decide that you trust the device again later, you can pick it from the list of available devices and reconnect it. ",
+                        "cta1": "Distrust",
+                        "cta2": "Cancel"
+                    },
+                    "label": "Energy related settings"
+                }
+            },
+            "timewindows": {
+                "temperatureSettings": "Temperature settings",
+                "setBackTemperature": "Set-back temp.",
+                "weeklyPlanner": "Weekly planner",
+                "defaultText": "There is no defined temperature setting.",
+                "defaultSubText": "Add a time period now.",
+                "addButton": "Add new time period",
+                "deleteButton": "Delete item",
+                "bottomSheetEditTitle": "<1>Edit time period<\/1> settings:",
+                "bottomSheetAddTitle": "<1>Add time period<\/1> settings:",
+                "bottomSheetAddButton": "Add",
+                "notSavedBottomSheetTitle": "Would you like to <2>save changes<\/2>?",
+                "notSavedBottomSheetText": "You have added or changed options of your weekly planner. Please save or dismiss to continue.",
+                "setbackTemperatureBottomSheet": "Select the <2>Set-Back temperature<\/2>.",
+                "maximumReached": {
+                    "title": "The maximum number of time window items is {{maxTimeWindows}}",
+                    "description": "Please remove at least one item before adding a new one."
+                },
+                "copyDailySettings": "Copy daily settings",
+                "copyDescription": "Copy settings of <2>{{weekdayLabel}}<\/2> to:",
+                "copyPaste": "Apply"
+            },
+            "hotWater": {
+                "boostActive": "Hot water boost",
+                "hotWater": "Domestic hot water",
+                "boost": "Hot water boost",
+                "temperature": "DHW temp.",
+                "bottomSheetTitle": "Selected <2>Domestic Hot Water<\/2> temperature.",
+                "infoHeader": "<0>Domestic hot water<\/0> settings",
+                "infoDescription": "These let you select the operation mode of your domestic hot water, create or edit a weekly schedule and change the hot water temperature.",
+                "operationMode": {
+                    "header": "Select <2>operation mode<\/2> for domestic hot water",
+                    "description": [
+                        "Automatically controls hot water production according to your specified settings.",
+                        "Constantly maintains the temperature of hot water until you deactivate manual mode.",
+                        "Deactivates production of the hot water until you change this operation mode."
+                    ]
+                }
+            },
+            "heating": {
+                "infoHeader": "Settings for this <2>heating zone<\/2>",
+                "infoDescription": "These let you select the operation mode of your heating system, create or edit a heating schedule for every day of the week and change the set-back temperature.",
+                "operationMode": {
+                    "header": "Select <2>operation mode<\/2> for heating zone",
+                    "description": [
+                        "Automatically controls your heating according to your specified settings.",
+                        "Constantly adjusts the heating to reach the desired temperature.",
+                        "Turns off the heating, e.g. during summer (hot water settings will not be affected)"
+                    ]
+                }
+            },
+            "sendFeedback": {
+                "label": "Send feedback"
+            },
+            "heatingCurveSettings": {
+                "heatingCurveWizard": "Heating curve wizard",
+                "heatingCurveExpert": {
+                    "title": "Heating curve (expert)",
+                    "itemSteepness": "Steepness of curve",
+                    "itemFlowTemp": "Min. flow temperature",
+                    "headOutdoor": "Outdoor temperature",
+                    "confirmHead": "Would you like to save your changes?",
+                    "confirmBody": "If you continue without saving, your changes will be dismissed."
+                },
+                "options": "Options",
+                "description": "The heating curve allows you to have the heating system automatically adjust to the outside temperature.",
+                "expertSettings": "Expert settings",
+                "learnMore": "Learn More",
+                "info": {
+                    "label": "About heating curve",
+                    "headline": "Basic terms",
+                    "description": "The heating curve shows the <2>flow temperature<\/2> over the <2>outside temperature<\/2>. At higher outside temperatures the flow temperature is reduced for a better efficiency. The flow temperature also <4>depends on the room temperature<\/4> setpoint and is shown here for 21 °C. A higher room temperature results in a higher flow temperature.",
+                    "listEntry0": "The ideal configuration depends on your individual system. For example, factors like the heating surface and the building's insulation need to be considered. Below you will find some guide values.",
+                    "listEntry1": "Steepness ~0.4 for a well insulated house with underfloor heating (Tmin 15°C)",
+                    "listEntry2": "Steepness ~0.6 for an older house with underfloor heating (Tmin 20°C)",
+                    "listEntry3": "Steepness ~1.1 for a well insulated house with radiator heating (Tmin 25°C)",
+                    "listEntry4": "Steepness ~1.5 for an older house with radiator heating (Tmin 30°C)",
+                    "listEntry5": "If your system does not reach the desired room temperature at low outside temperatures you should increase the steepness of the curve.",
+                    "listEntry6": "If your system does not reach the desired room temperature only at moderate outside temperatures, please increase the minimal flow temperature.",
+                    "note": "• Please note: changing your heating curve configuration might impact your comfort or the system efficiency. In some systems the heating curve is not used. In this menu, the heating curve is only shown for your main heating circuit. Please contact your installer if you would like to configure multiple heating circuits."
+                }
+            },
+            "networkSettings": {
+                "label": "Network Settings",
+                "sublabel": "Hardware installation, Wi-Fi connection",
+                "infoHeader": "Network setup",
+                "infoText": "These steps are essential for controlling your heating appliance with the myVAILLANT app."
+            },
+            "installationGuide": {
+                "label": "Hardware installation"
+            },
+            "wirelessSetup": {
+                "label": "Wi-Fi setup"
+            },
+            "account": {
+                "sublabel": "Personal data, appliance location",
+                "label": "Your account"
+            },
+            "addThermostat": {
+                "startPairing": {
+                    "head": "Start pairing mode",
+                    "body": "To add a thermostat, first press the pairing button on the front of your gateway for 3-4 seconds. The LED will start flashing blue. The pairing mode will be active for 3 minutes."
+                },
+                "pairThermostat": {
+                    "head": "Pair the thermostat",
+                    "body": "Press the button on your thermostat to pair it with your gateway."
+                }
+            },
+            "thermostats": {
+                "header": "Thermostats",
+                "title": "<0>Manage<\/0> your thermostats",
+                "description": "Add or remove thermostats and view information about thermostats already paired, like signal strength, battery status and more.",
+                "connected": "Your connected thermostats",
+                "disconnected": "Thermostats not reachable",
+                "noConnected": "No thermostats connected",
+                "information": {
+                    "title": "Device information",
+                    "signal": "Signal",
+                    "rssi": "Signal strength (RSSI)",
+                    "battery": "Battery status",
+                    "deviceType": "Device type",
+                    "serialNumber": "SGTIN",
+                    "softwareVersion": "Software version",
+                    "batteryStatus": {
+                        "good": "Good",
+                        "low": "Low",
+                        "empty": "Empty"
+                    }
+                },
+                "disconnectedHint": "For optimal results it is important to position your thermostat correctly. Learn more about finding the best spot for the thermostat in your room.",
+                "notSupportedHint": "Please note that ambiSENSE thermostats are not supported yet.",
+                "remove": "Remove thermostat",
+                "removeCard": {
+                    "body": "This removes the connection with the thermostat completely and it will no longer appear in the app. You can add it again later.",
+                    "cta": "Remove"
+                },
+                "removeError": "Sorry, the thermostat could not be removed. Please try again. If the problem persists, please contact our customer support.",
+                "add": {
+                    "cta": "Add new thermostat",
+                    "step1": "To add a thermostat, first press the button on the thermostat to start the pairing mode. The pairing mode will be active for 15 minutes.",
+                    "step2": "Press the button on the front of your gateway, then tap \"Next\". ",
+                    "error": {
+                        "not_found": "Thermostat not found",
+                        "hint": {
+                            "header": "Here is what you can do:",
+                            "1": "Check if the thermostat has fresh batteries inserted and the display is on.",
+                            "2": "Make sure that it is in pairing mode.",
+                            "3": "Move the thermostat closer to the gateway. If the problem persists, please contact your installer."
+                        }
+                    },
+                    "success": "Thermostat successfully added"
+                },
+                "positioning": {
+                    "headline": "Positioning",
+                    "body": "It is crucial to position your thermostats in the room correctly. <2>Here are a few hints<\/2> to help you."
+                },
+                "faq": {
+                    "headline": "Positioning your thermostats",
+                    "do": {
+                        "headline": "Do",
+                        "1": "position the thermostat about 150 to 160 cm above the floor. This is necessary to always measure the average room temperature.",
+                        "2": "keep it out of the way of any possible water spills or splashes (e. g. near the shower).\u2028"
+                    },
+                    "do_not": {
+                        "headline": "Do not",
+                        "1": "install the thermostat in a place exposed to direct sunlight or frequent draught.",
+                        "2": "position it near any heat sources, like radiators or cookers."
+                    }
+                }
+            },
+            "accountSettings": {
+                "changePassCTA": "Change password",
+                "changePassHead": "Change password",
+                "contactAddressHead": "Contact address"
+            }
+        },
+        "systemStatus": {
+            "hardwareFailure": "Hardware fault",
+            "severalHardwareFailure": "Several hardware problems were detected",
+            "maintenanceNeeded": "Maintenance required",
+            "maintenanceDue": "Next service is due in 30 days.",
+            "checkFailureList": "Check fault list",
+            "contactInstaller": "Contact your service company",
+            "dismiss": "Reject",
+            "maintenanceRequired": {
+                "cta": "Contact service",
+                "head": "Maintenance required",
+                "body": "The maintenance time has been reached."
+            }
+        },
+        "manualMigrationStart": {
+            "headlineSdbg": "To start your upgrade, please enter the code provided in your MiControl app:",
+            "headlineVaillant": "To start your upgrade, please enter the code provided in your sensoAPP or VRC 700 app:",
+            "codeInputPlaceholder": "Your upgrade code",
+            "instructionsSdbg": "You haven't received the upgrade code? Please return to your MiControl app and tap on the link to resend the code.",
+            "instructionsVaillant": "You haven't received the upgrade code? Please return to your sensoAPP or VRC 700 app and tap on the link to resend the code.",
+            "errors": {
+                "tokenExpiredVaillant": "Your upgrade code has expired. Please request a new one in your sensoAPP or multiMATIC app.",
+                "tokenNotFoundVaillant": "Your upgrade code is not valid. Please check it or request a new one in your sensoAPP or multiMATIC app.",
+                "invalidToken": "There seems to be a problem with your upgrade code. Please make sure you entered the correct code and contact our support team if the problem persists.",
+                "tokenNotFoundSdbg": "Your upgrade code is not valid. Please check it or request a new one in your MiControl app.",
+                "tokenExpiredSdbg": "Your upgrade code has expired. Please request a new one in your MiControl app."
+            }
+        },
+        "currentRoomTemperature": {
+            "current": "Current"
+        },
+        "awayMode": {
+            "awayActive": "Away active",
+            "backHome": "I am back home",
+            "setbackTemp": "Set-back temp."
+        },
+        "gatewayIdentification": {
+            "start": {
+                "headline": "Please identify your gateway",
+                "explanation": "To identify your gateway, please scan the 2D code provided. Alternatively you can enter the serial number manually.",
+                "cta": "Scan",
+                "typeInSerialNumber": "or type in serial number"
+            },
+            "scan": {
+                "header": "Scan code"
+            },
+            "manualEntry": {
+                "header": "Enter serial number",
+                "headline": "Please enter the serial number of your heating appliance:",
+                "placeholder": "Serial number",
+                "cta": "Next",
+                "switchToScanMode": "switch to scan mode"
+            },
+            "alreadyClaimedBottomSheet": {
+                "title": "Gateway setup already completed",
+                "text": "The setup was successfully completed already.\n\nPlease log in to continue or restart the setup process."
+            },
+            "isNotMigratedBottomSheet": {
+                "title": "Gateway not supported",
+                "text": "Your gateway is not supported by this app yet but will be added to the list of supported devices in a future update.\n\nAs for now, please use the {{oldControllerAppName}} instead."
+            },
+            "invalidSerialNumberBottomSheet": {
+                "title": "Serial number not valid",
+                "text": "The serial number you provided seems to be invalid.\n\nPlease check and try again."
+            },
+            "isNotCompatibleBottomSheet": {
+                "title": "Appliance not compatible",
+                "text": "Sorry, this app does not work with your heating appliance. Please use the correct app for your system."
+            },
+            "timeOut": {
+                "body": "Identifying your gateway was terminated due to a long period of inactivity.",
+                "head": "Process stopped"
+            },
+            "deniedCameraPermission": {
+                "headline": "Camera permission required",
+                "body": "Permission to use the camera is required for scanning the code. Please grant this permission in your mobile device's settings or enter the serial number manually."
+            }
+        },
+        "networkSetup": {
+            "header": "Network setup",
+            "connectionDecision": {
+                "headline": "How would you like to connect your appliance to the internet?",
+                "viaLan": "via LAN cable",
+                "viaWiFi": "via Wi-Fi"
+            },
+            "switchBoilerOn": {
+                "headline": "Power on",
+                "description": "Switch on your appliance or reconnect it to the electrical power."
+            },
+            "switchOffBoiler": {
+                "headline": "Power off",
+                "description": "Please switch off your appliance or disconnect it from the electrical power completely before you continue."
+            },
+            "gatewayTypeSelection": {
+                "headline": "Specify gateway",
+                "body": "Which gateway kit do you have?"
+            },
+            "deviceCheck": {
+                "headline": "Check for previously installed device",
+                "description": "Do you have a device already installed underneath your appliance?"
+            },
+            "deviceRemoval": {
+                "headline": "Remove existing device",
+                "description": "Unplug the cable from your appliance. Then remove the device from its mount by pulling it towards you."
+            },
+            "finishSteps": {
+                "search": {
+                    "headline": "Please wait",
+                    "description": "The gateway is trying to establish a  connection to our internet server. This might take a few moments."
+                },
+                "alert": {
+                    "headline": "Something went wrong",
+                    "description": "The connection could not be established. Please try again."
+                },
+                "finish": {
+                    "headline": "Connection established",
+                    "description": "Your gateway was successfully connected."
+                }
+            },
+            "permissionRequest": {
+                "title": "Location permission is required",
+                "message": "This permission is needed to scan for Wi-Fi networks in your surrounding.",
+                "positiveButton": "Allow",
+                "negativeButton": "Deny"
+            },
+            "error": {
+                "unknownNetworkSetupError": {
+                    "message": "Something went wrong",
+                    "description": "Please try again."
+                },
+                "wifiCannotConnectToAp": {
+                    "message": "Cannot connect to gateway",
+                    "description": "We could not connect to your gateway. Check if the LED is flashing blue or repeat the previous step."
+                },
+                "wifiNotEnabled": {
+                    "message": "Wi-Fi seems to be disabled",
+                    "description": "Wi-Fi needs to be enabled for the network setup. Please switch it on in your system settings."
+                },
+                "wifiConnectedToWrongGw": {
+                    "message": "Connected to unknown gateway",
+                    "description": "Please connect to the gateway associated with your account."
+                },
+                "restartSetup": "Restart setup",
+                "selectNewSSID": "Back to Wi-Fi selection",
+                "networkConnectionFailed": "Network connection failed",
+                "serverConnectionFailed": "Server connection failed",
+                "locationNotEnabled": {
+                    "message": "GPS seems to be disabled",
+                    "description": "Your precise location is needed for the network setup. Please switch on location services in your system settings."
+                }
+            },
+            "wifi": {
+                "wallMount": {
+                    "gatewayToBoiler": {
+                        "headline": "Connect gateway to appliance",
+                        "description": "Connect your gateway to the appliance with the eBUS cable. Do not plug in the gateway’s power adapter yet!"
+                    },
+                    "plugInPowerAdapter": {
+                        "headline": "Plug in power adapter",
+                        "description": "Connect your gateway to the outlet."
+                    },
+                    "pairingSensoNetUnderneath": {
+                        "headline": "Pairing gateway",
+                        "description": "Press the pairing button underneath your gateway. The LED will start flashing blue."
+                    }
+                },
+                "yCable": {
+                    "findPairingButton": {
+                        "headline": "Find pairing button",
+                        "description": "Open the lid of your heating gateway. The pairing button is located behind it. Please take a mental note of its position."
+                    },
+                    "installGateway": {
+                        "headline": "Install heating gateway",
+                        "description": "Push the gateway into its mount. The lid needs to remain open. Continue by connecting the cable."
+                    },
+                    "waitForReady": {
+                        "headline": "Wait for status “ready”",
+                        "description": "Your heating gateway’s LED starts flashing. Please wait until it is lit yellow\/green permanently."
+                    },
+                    "pressPairing": {
+                        "headline": "Pairing heating gateway",
+                        "description": "Press your heating gateway’s pairing button."
+                    },
+                    "waitForPairingFlashLight": {
+                        "headline": "Pairing heating gateway",
+                        "description": "The LED will start flashing blue."
+                    },
+                    "closeLid": {
+                        "headline": "Close the lid",
+                        "description": "Close the lid of your heating gateway."
+                    },
+                    "reinstallDevice": {
+                        "headline": "Reinstall previously installed device",
+                        "description": "Please attach the bracket to your previously installed device."
+                    },
+                    "connectDeviceToAppliance": {
+                        "headline": "Connect previously installed device",
+                        "description": "Install your previously installed device with bracket to your heating gateway and plug in the cable to the boiler."
+                    },
+                    "connectGateway": {
+                        "headline": "Connecting gateway",
+                        "description": "Wait until the LED of your heating gateway lights blue."
+                    }
+                },
+                "connectPhone": {
+                    "headline": "Connect smartphone",
+                    "description": "Tap “{{cta}}” to connect your smartphone with your heating gateway. Continue by allowing the connection request."
+                },
+                "connectPhoneManually": {
+                    "headline": "Connect your mobile device to the Wi-Fi network starting with “{{accessPoint}}”",
+                    "network": "Wi-Fi: {{accessPoint}}",
+                    "passphrase": "Password: {{passphrase}}"
+                },
+                "pickHomeNetwork": {
+                    "headline": "Wi-Fi connection",
+                    "description": "Please pick your Wi-Fi from the list of available networks.",
+                    "wifiListHeadline": "Choose network",
+                    "noNetworkFound": "No Wi-Fi network found",
+                    "enterWifiSSIDManually": "Enter Wi-Fi network’s name (SSID) manually",
+                    "ssidTooLong": "Wi-Fi network name (SSID) too long"
+                },
+                "enterHomeNetworkSsid": {
+                    "headline": "Please enter the name of your Wi-Fi network.",
+                    "networkName": "Network name (SSID)"
+                },
+                "enterHomeNetworkPassword": {
+                    "headline": "Please enter your password for the Wi-Fi network",
+                    "requirements": "Length must be {{min}} - {{max}} characters.",
+                    "connect": "Connect",
+                    "statusCheck": "Status check",
+                    "wifiConnected": "Wi-Fi connected",
+                    "backendConnected": "Server connected"
+                }
+            },
+            "lan": {
+                "wallMount": {
+                    "cablesToGateway": {
+                        "headline": "Connect cables",
+                        "description": "Plug the combined power\/data cable (eBUS) into your gateway. Connect the LAN cable to your gateway and router."
+                    },
+                    "cableToBoiler": {
+                        "headline": "Connect cables",
+                        "description": "Plug the combined power\/data cable (eBUS) into the appliance."
+                    },
+                    "plugInPowerAdapter": {
+                        "headline": "Plug in gateway",
+                        "description": "Plug in your gateway´s power supply."
+                    }
+                },
+                "boilerMount": {
+                    "lanToGateway": {
+                        "headline": "Connect LAN cable",
+                        "description": "Connect gateway with your router (LAN cable)."
+                    },
+                    "eBusToBoiler": {
+                        "headline": "Connect cable",
+                        "description": "Push the gateway into its mount. Now connect your gateway to the appliance with the cable."
+                    },
+                    "reinstallGateway": {
+                        "headline": "Reinstall gateway",
+                        "description": "Please attach the bracket to your gateway."
+                    },
+                    "connectGatewayToBoiler": {
+                        "headline": "Connect gateway",
+                        "description": "Install your gateway with bracket to your existing device and plug in the cable to the appliance."
+                    }
+                }
+            },
+            "CAG": {
+                "checkBoilerType": {
+                    "headline": "Identify model",
+                    "body": "Is there a connector for the combined power\/data cable (eBUS) underneath your appliance?",
+                    "serviceNeeded": {
+                        "headline": "Support required",
+                        "body": "Gateways without eBUS connectors must be installed by a trained professional. \nPlease find a certified installer near you on the Vaillant website.",
+                        "primaryCTA": "Find an installer",
+                        "secondaryCTA": "Continue installation"
+                    }
+                },
+                "checkPreinstalledCAG": {
+                    "headline": "Check whether the installed module is a gateway",
+                    "body": "Does the module installed underneath your appliance have a pairing button and front-facing LED?"
+                },
+                "checkPreinstalledDevices": {
+                    "headline": "Check for previously installed modules",
+                    "body": "Do you already have a module installed underneath your appliance?"
+                },
+                "switchOffBoiler": {
+                    "headline": "Power off",
+                    "body": "Please switch off your appliance or disconnect it from the electrical power completely before you continue."
+                },
+                "connectEbus": {
+                    "headline": "Connect the y-cable",
+                    "body": "Please make sure that the plugs for power (1) and eBUS (2) are correctly plugged into your gateway."
+                },
+                "multipleDevices": {
+                    "installBracket": {
+                        "headline": "Install bracket",
+                        "body": "Attach the bracket (available through any certified installer) to the preinstalled module."
+                    },
+                    "connectGateway": {
+                        "headline": "Install and connect the gateway ",
+                        "body": "Connect the cable and push the gateway module into the bracket."
+                    },
+                    "switchOn": {
+                        "body": "Switch your appliance on (or re-connect it to the electrical power).",
+                        "headline": "Power on"
+                    }
+                },
+                "pairingCAG": {
+                    "headline": "Start pairing",
+                    "body": "Press the pairing button on the front of your gateway for 3-4 seconds.\nThe LED will start flashing blue. The pairing mode will be active for 15 minutes."
+                },
+                "CAGOnly": {
+                    "connectGateway": {
+                        "headline": "Install and connect the gateway module",
+                        "body": "Push the gateway into its mount and connect it to the boiler with the eBUS cable."
+                    },
+                    "switchOn": {
+                        "headline": "Power on",
+                        "body": "Switch your appliance on (or re-connect it to the electrical power)."
+                    }
+                },
+                "homeKit": {
+                    "headline": "Connect with HomeKit",
+                    "body": "Please make sure you have access to the HomeKit QR Code (sticker on your gateway or package insert).",
+                    "CTA": "Open HomeKit settings",
+                    "instructionsStep1": "Please open the Home app on your mobile device to proceed.",
+                    "instructionsStep2": "In the Home app, tap on Add Accessory.",
+                    "instructionsStep3": "Return to this app to continue.",
+                    "continueHeadline": "Continue in Home app",
+                    "instructionsStep2a": "(Please note that the gateway will be listed as \"bridge\".)",
+                    "searching": "Please wait - searching for new devices …",
+                    "pickBridge": {
+                        "body": "The following devices were found. Please select the one you wish to connect to.",
+                        "head": "Select gateway",
+                        "noGateway": {
+                            "head": "Gateway not found",
+                            "body": "Sorry, no compatible device could be detected. Please make sure your gateway is set up correctly and try again."
+                        },
+                        "devicesFound": "DEVICES FOUND"
+                    },
+                    "finish": {
+                        "CTA": "FINISH SETUP"
+                    },
+                    "success": {
+                        "head": "Connection established",
+                        "body": "Your gateway was successfully connected."
+                    }
+                }
+            },
+            "finalCheck": {
+                "headline": "Check connections",
+                "body": "Please check the connections between all system components before you continue."
+            },
+            "status": {
+                "establishingNetworkConnection": "Establishing network connection",
+                "connectingToServer": "Connecting to the server",
+                "networkConnectionSuccessful": "Network connection successful",
+                "connectionToServerSuccessful": "Server connection successful",
+                "setupSuccessful": {
+                    "text": "The network setup was successful.",
+                    "headline": "Setup complete"
+                },
+                "systemScan": {
+                    "head": "One moment please",
+                    "body": "Retrieving information about your system"
+                }
+            },
+            "guidedInstallation": {
+                "headline": "Guided gateway installation",
+                "description": "The next steps will explain how to install your gateway on your heating appliance.",
+                "CTA": "Start guided setup",
+                "skipMessage": "If the gateway is already installed you can skip this guide and continue with the network setup.",
+                "skipCTA": "Skip to connection setup"
+            },
+            "noPermission": {
+                "head": "Permission required",
+                "body": "Due to missing permissions the network setup cannot be completed. Please enable the location permission in your device's settings to allow the app to scan for Wi-Fi networks.",
+                "ctaSettings": "Open settings",
+                "ctaRestart": "Restart network setup"
+            },
+            "noHomekitPermission": {
+                "body": "Due to missing permissions the network setup cannot be completed. Please enable HomeKit in your device's settings to allow the app to connect the gateway to your HomeKit.",
+                "head": "Permission required"
+            }
+        },
+        "heatingCurveWizard": {
+            "header": "System optimization",
+            "heatingType": {
+                "description": "Please choose your heating type:",
+                "radiator": "Radiator",
+                "floorHeating": "Floor Heating",
+                "notSureButton": "Not sure? Click here to continue."
+            },
+            "houseAge": {
+                "description": "How old is your house?",
+                "moreThan20Years": "More than 20 years",
+                "lessThan20Years": "Less than 20 years",
+                "notSure": "I am not sure"
+            },
+            "insulation": {
+                "description": "Was your house insulated in the last 20 years?",
+                "yes": "Yes",
+                "no": "No",
+                "notSure": "I am not sure"
+            },
+            "finalScreen": {
+                "headline": "Thank you!",
+                "description": "The system will now be optimized based on the answers you gave. You can change all settings manually later."
+            },
+            "facilityLocation": {
+                "header": "Location",
+                "relevanceDescription": "Relevant only for weather services.",
+                "adjustButtonLabel": "Adjust location",
+                "confirmButtonLabel": "Confirm",
+                "editingHeadline": "Adjust the location of your heating, if needed, to receive more precise meteorological data.",
+                "editingInfo": "Move the map to adjust location"
+            },
+            "introduction": {
+                "description": "Please answer the following questions to automatically find the settings that best match your heating situation.",
+                "headline": "Initial Settings"
+            }
+        },
+        "heatingCurveExpert": {
+            "featureNotAvailable": "This feature is currently not available.",
+            "heatingCurve": "Heating curve",
+            "resetDefaultSettings": "Restore default settings"
+        },
+        "messages": {
+            "firmwareupdate": {
+                "inprogress": {
+                    "msghead": "Firmware update in progress.",
+                    "msgbody": "Please do not power off your appliance. This will only take a few minutes."
+                }
+            }
+        },
+        "information": {
+            "actualFlowTemperature": {
+                "heatingCircuit": "Actual flow temperature (Heating circuit {{circuitnumber}})"
+            },
+            "installationFlowTemperature": "Installation flow temperature",
+            "sublabel": {
+                "installation": "Installation"
+            },
+            "waterPressure": "Water pressure",
+            "dhwTemperature": "DHW temperature",
+            "head": "Current system data",
+            "copy": "These are the current values provided by your installation.",
+            "noInfo": "No system information available"
+        },
+        "update": {
+            "info": {
+                "head": "New update available!",
+                "body": "Good news: a new, improved version of this app is ready for you to install. Update now – it's quick and simple!",
+                "ctaInstall": "Install update",
+                "ctaLater": "Update later",
+                "appObsolete": {
+                    "head": "Update required",
+                    "body": "This version of the app is no longer supported. Please update to the latest version."
+                }
+            }
+        },
+        "energyInfo": {
+            "sectionHead": "Energy information",
+            "systemPicker": {
+                "system": "System View",
+                "heatPumpOnly": "Heat pump only",
+                "backupHeater": "Backup heater only",
+                "heatPumpSystem": "Heat pump system (total)",
+                "gasBoiler": "Gas boiler"
+            },
+            "rangeHead": {
+                "weekly": "Weekly overview",
+                "daily": "Daily overview",
+                "monthly": "Monthly overview",
+                "yearly": "Yearly overview",
+                "selected": "Selected range",
+                "total": "Total"
+            },
+            "usagePicker": {
+                "heating": "Heating",
+                "dhw": "Hot water",
+                "cooling": "Cooling"
+            },
+            "tileHead": {
+                "efficiency": "Energy efficiency",
+                "heat": "Heat generated",
+                "cooling": "Cooling generated",
+                "envYield": "Environmental yield",
+                "electricCon": "Electric energy consumption",
+                "opTime": "Running time",
+                "cycles": "On\/off cycles",
+                "status": "System status",
+                "waterPressure": "Water pressure",
+                "dhwTemp": "Hot water temp.",
+                "instFlowTemp": "Installation flow temp.",
+                "actualFlowTemp": "Actual flow temp\n(Heating circuit {{circuit}})",
+                "dhw": "Hot water generated",
+                "solarThermalEnergy": "Solar thermal energy",
+                "ventilationSystem": "Ventilation system",
+                "additionalComp": "Additional system components",
+                "currentCon": "Current power consumption"
+            },
+            "shareReport": {
+                "body": "Generate and share a yearly report for {{year}} as a CSV file",
+                "cta": "Share"
+            },
+            "graphSelect": {
+                "outdoorTemp": "Show outdoor temp.",
+                "indoorTemp": "Show indoor temp."
+            },
+            "disclaimer": {
+                "body": "Energy consumptions, energy yields and efficiencies are extrapolated based on various parameters. The actual figures may differ substantially in some cases."
+            },
+            "rangeCta": "Select range",
+            "detailedView": {
+                "head": "Detailed view"
+            },
+            "label": {
+                "indoor": "Indoor",
+                "outdoor": "Outdoor"
+            },
+            "system": {
+                "head": {
+                    "1": "Your system"
+                },
+                "subline": {
+                    "1": "All heat generators are selected"
+                }
+            },
+            "learnMore": {
+                "efficiency": "The energy efficiency is the ratio of heat (or cooling) generated to energy consumed. A higher value means a more cost-effective and more environmentally friendly operation. This value is only shown if sufficient data have been collected for the chosen period of time."
+            },
+            "tile": {
+                "solarThermalEnergy": "Total yield",
+                "ventilationSystem": "Heat recovery"
+            },
+            "flyout": {
+                "ventilationSystem": {
+                    "head": "Ventilation system",
+                    "body": "In order to not waste any energy, your ventilation system recuperates ambient heat from the room air. This value shows the amount of energy recovered."
+                },
+                "solarThermalEnergy": {
+                    "head": "Solar thermal energy",
+                    "body": "This value shows the accumulated amount of solar thermal energy yielded – freely available environmental energy used for generating domestic hot water and heating (subject to your system configuration)."
+                },
+                "powerLimited": {
+                    "head": "Power limitation active",
+                    "body": "The maximum power consumption of your heat pump is currently limited (usually by your energy provider or an energy management system)."
+                }
+            },
+            "error": {
+                "noData": {
+                    "head": "No data available",
+                    "copy": "No data are available for the selected range of time. ",
+                    "copyFAQ": "No data are available for the selected range of time. Please refer to our FAQ to find out more about this issue."
+                }
+            }
+        },
+        "systemInformation": {
+            "yourSystem": {
+                "systemInfo": {
+                    "headline": "System information"
+                },
+                "devicePicker": {
+                    "headline": "Heat generators"
+                }
+            }
+        },
+        "signIn": {
+            "countryPicker": {
+                "header": "Please select your country:"
+            },
+            "alreadyAccount": "Do you already have an account?",
+            "continue": "Continue with login",
+            "migration": {
+                "switch": {
+                    "sdbg": {
+                        "header": "Are you currently using the Migo or the MiControl App?",
+                        "body": "If yes, please upgrade with the code we provided you in your current app. If you haven't received an upgrade code, you can't use the MiGo Link App for now."
+                    },
+                    "vaillant": {
+                        "header": "Are you currently using the multiMATIC or sensoAPP?",
+                        "body": "If yes, please upgrade with the code we provided you in your current app. If you haven't received an upgrade code, you can't use the myVAILLANT App for now."
+                    }
+                },
+                "primary": "Yes, continue with upgrade",
+                "secondary": "No, proceed to login"
+            }
+        },
+        "dashboard:leginonella": "Legionella protection active",
+        "appStore": {
+            "slides": {
+                "headline": [
+                    "Smart and simple heating control",
+                    "Dashboard For All Essential Functions",
+                    "Quick And Easy To Use",
+                    "Vivid Design",
+                    "Consumption Data at a Glance"
+                ]
+            }
+        },
+        "common:appName": {
+            "vaillant": "myVAILLANT App",
+            "sdbg": "MiGo Link App"
+        },
+        "signUp": {
+            "migration": {
+                "secondary": "No, proceed to account creation"
+            }
+        }
+    }
+}
