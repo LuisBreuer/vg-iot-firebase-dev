@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "site": "my-vaillant-dev",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [ {
+      "source": "/home",
+      "destination": "/index.html",
+      "type": 302
+    }, {
+      "source": "/migo",
+      "destination": "https://migolink-opensource-dev.web.app/",
+      "type": 302
+    }, {
+      "regex": "/firebase/.*",
+      "destination": "https://firebase.google.com/",
+      "type": 302
+    } ],
+    "rewrites": [ {
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+}

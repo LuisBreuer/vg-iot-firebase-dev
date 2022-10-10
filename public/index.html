@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Vaillant</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+    <div style="overflow:auto">
+        <div class="left">
+            <p></p>
+        </div>
+        <div id="main" class="main">
+            <h1>MyVaillant</h1>
+            <img class="title-image" src="./assets/background.png" style="width:100%">
+            <main>
+                <div class="text-area">
+                    <p data-i18n-key="welcomeTour.slidesVaillant.body"></p>
+                    <select data-i18n-switcher class="locale-switcher">
+                        <option value="en">English</option>
+                        <option value="de_DE">Deutsch</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <a href="/migo">
+                        <div class="card">
+                            <label class="card-subheader" data-i18n-key="settings.heatingCurveSettings.heatingCurveExpert.itemSteepness"></label>
+                            <p class="card-header" data-i18n-key="settings.heatingCurveSettings.heatingCurveExpert.itemSteepness"></p>
+                        </div>
+                    </a>
+                    <a href="/subPages/subPageTwo.html">
+                        <div class="card">
+                            <label class="card-subheader" data-i18n-key="settings.heatingCurveSettings.info.label"></label>
+                            <p class="card-header" data-i18n-key="settings.heatingCurveSettings.info.label"></p>
+                        </div>
+                    </a>
+                    <a href="/subPages/subPageThree.html"><div class="card" data-i18n-key="settings.heatingCurveSettings.info.headline">Sub Page Three</div></a>
+                    <a href="/subPages/subPageOne.html"><div class="card" data-i18n-key="settings.heatingCurveSettings.info.listEntry3">Sub Page Four</div></a>
+                    <a href="/subPages/subPageTwo.html"><div class="card" data-i18n-key="settings.heatingCurveSettings.info.listEntry1">Sub Page Five</div></a>
+                    <a href="/subPages/subPageThree.html"><div class="card" data-i18n-key="settings.heatingCurveSettings.info.listEntry2">Sub Page Six</div></a>
+                </div>
+            </main>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <script type="module" src="translator.js"></script>
+    </body>
+</html>
