@@ -1,6 +1,7 @@
 {
   "translation": {
     "common": {
+      "test": "Test",
       "email": "E-mail",
       "password": "Password",
       "continue": "Continue",
