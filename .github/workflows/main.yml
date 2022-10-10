@@ -22,11 +22,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       
       # Install required dependencies
       - name: Install dependencies
-      - run: npm ci
+        run: npm ci
 
       # Archive production artifact
       - name: Archive production artifact
@@ -35,7 +35,7 @@ jobs:
           name: dist
           path: dist
           
-  #Deploy
+  # Deploy
   deploy:
     name: Deploy
     needs: build
@@ -53,4 +53,4 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN}}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
