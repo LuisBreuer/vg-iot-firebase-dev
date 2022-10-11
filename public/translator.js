@@ -56,4 +56,5 @@ function bindLocaleSwitcher(initialValue) {
     };
 }
 // Soll die präferierte Browser language abgefragt werden und die Seite danach übersetzt werden?
-// Test (Jest)?
+
+export {parseKeys}
