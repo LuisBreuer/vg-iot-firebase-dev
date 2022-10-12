@@ -1,5 +1,4 @@
 module.exports = {
-
   moduleFileExtensions: [
     'js',
     'jsx',
@@ -13,4 +12,5 @@ module.exports = {
   },
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
   testEnvironment: "jest-environment-jsdom",
+  resetMocks: false
 };
